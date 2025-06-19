@@ -8,5 +8,5 @@ def home(request):
     return render(request, "index.html")
 
 
-def ping(request):
+def pig(request):
     return JsonResponse({"message": f"pong {time.time()}"})
