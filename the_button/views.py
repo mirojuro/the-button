@@ -3,8 +3,6 @@ import time
 from django.http import JsonResponse
 from django.shortcuts import render
 
-def this_is_invalid(
-	print("Oops")
 
 def home(request):
     return render(request, "index.html")
