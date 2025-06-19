@@ -10,5 +10,5 @@ def home(request):
     return render(request, "index.html")
 
 
-def ping(request):
-    return JsonResponse({"message": f"ma byc error {time.time()}"})
+#def ping(request):
+#    return JsonResponse({"message": f"ma byc error {time.time()}"})
