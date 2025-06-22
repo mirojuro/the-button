@@ -9,4 +9,4 @@ def home(request):
 
 
 def ping(request):
-    return JsonResponse({"message": f"pong {time.time()}"})
+    return JsonResponse({"message": f"ping {time.time()}"})
