@@ -241,3 +241,8 @@ jobs:
         run: |
           echo "Smoke tests failed! Check the logs."
           curl -X POST -H "Content-Type: application/json" -d '{"status":"failure","message":"Smoke tests failed! Check the logs."}' ${{ secrets.WEBHOOK_URL }}
+# Na potrzeby testu błędu wymuś fail (odkomentuj w razie potrzeby)
+# exit 1
+
+echo "All smoke tests completed successfully!"
+exit 0
