@@ -1,4 +1,4 @@
-services:Add commentMore actions
+services:
   django-web:
     image: nginx:latest
     container_name: the_button_app
